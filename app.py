@@ -156,7 +156,7 @@ if st.button("🔍  Predict Loan Risk"):
     }
 
     # Create a DaaFrame from the input dictionary
-    input_data_df = pd.DataFrame([input_data])
+    input_data_df = pd.DataFrame([input_dict])
 
     # Get the column names from the training data X
     # This list is obtained from the kernel state 's 'X' variable.
