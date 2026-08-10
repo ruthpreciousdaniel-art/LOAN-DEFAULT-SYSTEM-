@@ -226,7 +226,7 @@ if st.button("🔍  Predict Loan Risk"):
                 '''
            )
 
-with colB:
+    with colB:
 
            st.metric(
                 "Default Probability",
