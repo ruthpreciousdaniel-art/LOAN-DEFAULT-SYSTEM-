@@ -143,7 +143,7 @@ with col3:
 if st.button("🔍  Predict Loan Risk"):
 
     # Create a Dictionary for the input features
-    input_dICt = {
+    input_dict = {
         'Age': Age,
         'Income': Income,
         'LoanAmount': Loan_Amount,
