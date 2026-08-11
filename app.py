@@ -155,7 +155,7 @@ if st.button("🔍  Predict Loan Risk"):
         'DTIRatio': DTIRatio
     }
 
-    # Create a DaaFrame from the input dictionary
+    # Create a DataFrame from the input dictionary
     input_data_df = pd.DataFrame([input_dict])
 
     # Get the column names from the training data X
